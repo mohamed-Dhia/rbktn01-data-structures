@@ -4,7 +4,6 @@ var Queue = function() {
 	var queue = Object.create(queueMethods);
 	queue.count = 0;
 	queue.storage = {};
-	console.log(queue)
 	return queue
 };
 
